@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var listOfWords = ["pizza", "cooking", "gaming", "noob", "swift", "japan"]
     @IBOutlet weak var treeImageView: UIImageView!
     @IBOutlet weak var correctWordLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
